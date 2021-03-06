@@ -20,7 +20,7 @@ public class Customer
 	// Getters
 	public int getId()
 	{
-		return id
+		return id;
 	}
 
 	public String getName()
@@ -43,13 +43,13 @@ public class Customer
 	// add cash to cash on hand
 	public void addCash(double cash)
 	{
-		this.cash += cash;
+		this.cashOnHand += cash;
 	}
 
 	// Buy Snacks. Given the total cost of the snacks to be purchased 
 	// Reduce the cash on hand by that amount.
 	public void buySnacks(double cash)
 	{
-		this.cash -= cash;
+		this.cashOnHand -= cash;
 	}
 }
