@@ -18,7 +18,7 @@ public class VendingMachine
 	// Getters
 	public int getId()
 	{
-		return id
+		return id;
 	}
 
 	public String getName()

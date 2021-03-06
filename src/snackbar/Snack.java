@@ -77,8 +77,9 @@ public class Snack
 	}
 
 	// get total cost given a quantity
-	public void getTotalCost(int quantity)
+	public double getTotalCost(int quantity)
 	{
-		return this.cost * quantity;
+		double dquantity = quantity;
+		return this.cost * dquantity;
 	}
 }
