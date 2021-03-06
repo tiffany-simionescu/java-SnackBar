@@ -15,7 +15,6 @@ public class Snack
 	{
 		maxId++;
 		id = maxId;
-
 		this.name = name;
 		this.quantity = quantity;
 		this.cost = cost;
