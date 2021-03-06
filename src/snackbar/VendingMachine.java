@@ -7,6 +7,14 @@ public class VendingMachine
 	private int id;
 	private String name;
 
+	// Constructor
+	public VendingMachine(String name)
+	{
+		maxId++;
+		id = maxId;
+		this.name = name;
+	}
+
 	// Getters
 	public int getId()
 	{
